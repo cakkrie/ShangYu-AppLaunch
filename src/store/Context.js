@@ -1,6 +1,6 @@
 import React from 'react'
 
-import appLogo from '../images/amplichat.png'
+import appLogo from '../images/shangyu_logo.png'
 
 import appleStoreBadge from '../images/apple_store_badge.svg'
 import googlePlayBadge from '../images/google_play_badge.png'
@@ -32,7 +32,7 @@ export const initialState = {
     appURL: 'https://amplichat.com',
 
     appLogo: appLogo,
-    appName: 'AmpliChat',
+    appName: 'Shangyu',
 
     coverTitle: 'Stay Connected at Events',
     coverText: 'Chat with other attendees and make new friends at your favorite events and concerts.',

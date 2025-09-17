@@ -34,7 +34,7 @@ export const initialState = {
     appLogo: appLogo,
     appName: 'Shangyu',
 
-    coverTitle: 'Stay Connected at Events',
+    coverTitle: '你的专属钓鱼助手',
     coverText: 'Chat with other attendees and make new friends at your favorite events and concerts.',
     appleStoreBadge: appleStoreBadge,
     appleStoreLink: 'https://apps.apple.com/us/app/amplichat/id1499570373',

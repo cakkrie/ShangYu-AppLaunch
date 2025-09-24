@@ -1,6 +1,6 @@
 # React-Landing-Page-Shangyu
 
-## Live Demo
+## Live Demo Example
 
 https://mirror.voiceqna.com
 
@@ -8,18 +8,6 @@ https://paper.jomimi.com
 
 https://jomimi.com
 
-
-## Mobile Demo
-
-![voice_mirror_mobile](https://github.com/sugia/React-Landing-Page-Template/assets/2340878/910bfe85-ac8d-466b-a58d-24d80fd0b0d2)
-
-## Desktop Demo
-
-![paper_desktop](https://github.com/sugia/React-Landing-Page-Template/assets/2340878/e19de352-f5f9-4e11-a081-3a30e8d97a54)
-
-## Tablet Demo
-
-![jomimi_tablet](https://github.com/sugia/React-Landing-Page-Template/assets/2340878/78b95546-922e-4853-87d9-39889fd2852c)
 
 ## Getting Started
 ```

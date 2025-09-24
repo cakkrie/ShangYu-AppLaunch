@@ -1,29 +1,17 @@
 import React from 'react'
 
-import appLogo from '../images/shangyu_logo.png'
+import appLogo from '../images/shangyu_logo.svg'
 
 import appleStoreBadge from '../images/apple_store_badge.svg'
-import googlePlayBadge from '../images/google_play_badge.png'
 
-import coverImage from '../images/amplichat_iphones_two.png'
-
-// endorsement images
-import dreamhub_filled from '../images/dreamhub_filled.png'
-import voiceqna_filled from '../images/voiceqna_fill_v2_gradient.png'
-import voicemirror_filled from '../images/voice_mirror_v_1024.png'
-import bazipaipai_unfilled from '../images/bazipaipai_64.png'
-import spindrifthome_filled from '../images/sh_unfill_1024.png'
-
+import coverImage from '../images/shangyu-cover.png'
 
 // section images
-import guitar from '../images/guitar.jpg'
-import event_phones from '../images/event_phones.jpeg'
-import foggy_blue from '../images/foggy_blue.jpg'
-import purple_phones from '../images/purple_phones.png'
-import purple_light from '../images/purple_light.jpg'
-import concert_classic from '../images/concert_classic.jpg'
-
-import discordImage from '../images/discord.png'
+import fish_spot from '../images/fish-spot.png'
+import fish_wiki from '../images/fish-wiki.png'
+import fish_community from '../images/fish-community.png'
+import fish_weather from '../images/fish-weather.png'
+import fish_store from '../images/fish-store.png'
 
 export const initialState = {
     // when in dev, change appURL to local url
@@ -32,87 +20,45 @@ export const initialState = {
     appURL: 'http://localhost:3000',
 
     appLogo: appLogo,
-    appName: 'Shangyu',
+    appName: '上渔App',
 
     coverTitle: '你的专属钓鱼助手',
-    coverText: 'Chat with other attendees and make new friends at your favorite events and concerts.',
+    coverText: '上渔让上鱼变得更加简单',
     appleStoreBadge: appleStoreBadge,
     appleStoreLink: 'https://apps.apple.com/us/app/amplichat/id1499570373',
-    googlePlayBadge: googlePlayBadge,
-    googlePlayLink: 'https://apps.apple.com/us/app/amplichat/id1499570373',
 
     coverImage: coverImage,
 
     endorsementTitle: `Hangout with your favorite people on your favorite apps`,
     endorsementText: `AmpliChat powers conversations within DreamHub, VoiceQnA, VoiceMirror, BaZiPaiPai, and SpindriftHome.`,
-    endorsementList: [
-        {
-            title: `DreamHub: Visualized Stories`,
-            titleColor: `orangeRed`,
-            image: dreamhub_filled,
-            URL: `https://dreamhub.app`,
-        },
-        {
-            title: `VoiceQnA: Speak a New Language`,
-            titleColor: `forestGreen`,
-            image: voiceqna_filled,
-            URL: `https://voiceqna.com`,
-        },
-        {
-            title: `VoiceMirror: Travel Translator`,
-            titleColor: `blue`,
-            image: voicemirror_filled,
-            URL: `https://voiceqna.com/mirror`,
-        },
-        {
-            title: `BaZiPaiPai: Know Your Destiny`,
-            titleColor: `black`,
-            image: bazipaipai_unfilled,
-            URL: `https://bazipaipai.com`,
-        },
-        {
-            title: `SpindriftHome: HOA Management`,
-            titleColor: `orangeRed`,
-            image: spindrifthome_filled,
-            URL: `https://spindrifthome.com`,
-        },
-    ],
 
     sectionList: [
         {
-            'title': `Event Networking Made Easy`,
-            'text': `Tired of shouting over the music to talk to your friends at concerts and events? Our app makes it easy to chat with others in real-time, so you can enjoy the experience without missing out on socializing.`,
-            'image': guitar,
+            'title': `水域标点`,
+            'text': `钓鱼地图让您探索附近水域并识别可能出现的鱼类。您可以查看同一区域钓友的捕获情况，并深入了解渔获详情。点击特定鱼类，还能获得专属饵料推荐，全面提升钓鱼体验。`,
+            'image': fish_spot,
         },
         {
-            'title': `Expand Your Event Community`,
-            'text': `Meet like-minded people and share your excitement for the latest events and concerts.`,
-            'image': event_phones,
+            'title': `钓鱼百科`,
+            'text': `鱼类百科为垂钓者提供有关各种鱼类的基本信息，包括大小、栖息地、平均重量、濒危状况和推荐的饵料，使他们更容易计划成功的钓鱼之旅并支持可持续实践。`,
+            'image': fish_wiki,
         },
         {
-            'title': `Enhance Event Experience`,
-            'text': `Get instant access to a community of passionate event and concert-goers with our app! Chat with others before, during, and after the event to enhance your experience and create memories that last a lifetime.`,
-            'image': foggy_blue,
+            'title': `上渔社群`,
+            'text': `在社区中，您可以与钓友们联系、分享心得、查询鱼类信息，并展开有趣的交流。通过邀请功能，只需选择时间和地点，就能约上朋友一起钓鱼，让出行计划更轻松，也让钓鱼体验更欢乐。`,
+            'image': fish_community,
         },
         {
-            'title': `Chat with Attendees`,
-            'text': `Don't let social anxiety get in the way of enjoying your favorite events and concerts! With our app, you can chat with others and make new friends in a safe, welcoming environment.`,
-            'image': purple_phones,
+            'title': `钓鱼天气`,
+            'text': `钓鱼天气为您打造专属的出钓参考。它会根据水温、风向等自然条件，智能推荐最佳作钓地点，让您的每一次出行更高效、更有收获。`,
+            'image': fish_weather,
         },
         {
-            'title': `Discover New Events and Friends`,
-            'text': `Our app is the perfect way to enhance your experience at events and concerts! Connect with others, share your thoughts and opinions, and discover new artists and events to love.`,
-            'image': purple_light,
-        },
-        {
-            'title': `Connect with Concert Fans`,
-            'text': `Whether you're a seasoned concert-goer or a first-time attendee, our app is the perfect way to connect with others and make the most of your experience. Download now and start chatting!`,
-            'image': concert_classic,
+            'title': `智能推荐商城`,
+            'text': `我们的商城配备了AI智能推荐功能。用户只需输入需求，系统即可精准匹配相关装备，免去在其他平台反复查找的麻烦。同时，系统还会根据钓鱼习惯与偏好，推荐最合适的装备，带来个性化的购物体验。`,
+            'image': fish_store,
         },
     ],
-
-    discordImage: discordImage,
-    discordLink: 'https://discord.com/invite/aFQPYyAVDq',
 }
 
 const initialContext = {

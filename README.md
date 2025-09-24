@@ -1,14 +1,5 @@
 # React-Landing-Page-Shangyu
 
-## Live Demo Example
-
-https://mirror.voiceqna.com
-
-https://paper.jomimi.com
-
-https://jomimi.com
-
-
 ## Getting Started
 ```
 git clone https://github.com/sugia/React-Landing-Page-Template.git
